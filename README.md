@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# Subby – Subscription Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**React Native + Expo Learning Project | ~75% Complete**
 
-## Get started
+![Demo GIF](demo.gif)
 
-1. Install dependencies
+A modern mobile subscription tracker built while following the excellent full course by **JavaScript Mastery** on YouTube.
 
-   ```bash
-   npm install
-   ```
+### 🎯 Project Purpose
+This project was created **purely as a learning exercise** to understand React Native fundamentals. I intentionally stopped at ~75% completion (all frontend completed) once I had extracted the core concepts I needed.
 
-2. Start the app
+Instead of forcing myself to finish an app I wasn't deeply passionate about, I chose to pivot and focus my energy on higher-impact projects that solve real problems.
 
-   ```bash
-   npx expo start
-   ```
+Built as part of my aggressive self-directed full-stack learning journey while studying Law part-time (2nd year).
+I'm focused on depth, rapid learning, and shipping meaningful projects rather than completing every tutorial app to 100%. This repository stands as honest proof of that journey.
 
-In the output, you'll find options to open the app in a
+Feel free to explore the code, run the app, or reach out with any questions!
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### ✨ What I Built
+- Complete **Expo** project setup with modern best practices
+- File-based routing using **Expo Router**
+- Beautiful, consistent UI using **NativeWind (Tailwind CSS v4)** with custom `@theme` configuration and reusable component classes
+- Smooth navigation including tabs, stacks, and modals
+- Home screen featuring a balance card, upcoming subscriptions section, and subscription list
+- Expandable subscription detail cards with clean animations
+- Authentication flow (login & signup screens) with polished form design
+- Live reloading and rapid iteration using **Expo Go**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The app runs smoothly on both iOS and Android via Expo Go.
 
-## Get a fresh project
+### 🛠️ Tech Stack
+- **React Native** + **Expo** (Managed Workflow)
+- **Expo Router** for navigation
+- **NativeWind v5** (Tailwind CSS v4 with CSS variables & `@theme`)
+- React Navigation
+- Modern component architecture
 
-When you're ready, run:
+### 📚 What I Learned
+This project delivered exactly what I was looking for:
 
+- How to properly set up and structure a modern React Native application with Expo
+- The power of **live reloading** with **Expo Go** — incredibly fast feedback loop for mobile development
+- File-based routing with **Expo Router** (feels very similar to Next.js App Router)
+- Advanced styling techniques using **NativeWind v5** and Tailwind CSS v4 (including CSS variables, `@theme`, and `@apply`)
+- Mobile-specific component patterns, state management basics, and UI architecture
+- Common debugging patterns in React Native (module resolution, caching, styling quirks, etc.)
+- How quickly I can ramp up on a completely new framework 
+
+Most importantly, it reinforced that I can efficiently learn and apply new technologies even while following structured tutorials.
+
+### 🙏 Special Thanks
+Huge credit and thanks to **JavaScript Mastery** on YouTube for creating such a high-quality, comprehensive React Native course. The tutorial was clear, well-structured, and helped me grasp mobile development concepts much faster than I expected.
+
+### Why I Paused Development
+After gaining solid fundamentals in React Native and Expo, I realized that continuing this specific subscription tracker wasn't the best use of my limited time and energy. 
+
+I treat tutorial-based projects as "learning school" — valuable stepping stones. This one served its purpose extremely well. For most tutorial-based projects I usually
+add something to make it mine and not straight copy and paste, for example: Adding new features, Refactoring the way something works and replace it with more effecient code etc. But for this one I quickly got what I was looking for.
+
+### 🚀 How to Run Locally
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/verweyruan/subby-subscription-tracker.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Navigate into the project
+cd subby-subscription-tracker
 
-## Learn more
+# Install dependencies
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the development server
+npx expo start

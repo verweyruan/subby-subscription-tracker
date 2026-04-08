@@ -26,6 +26,15 @@ export default function App() {
       >
         Create an Account
       </Link>
+      <Link href="/subscriptions/spotify">Spotify Subscriptions</Link>
+      <Link
+        href={{
+          pathname: "/subscriptions/[id]",
+          params: { id: "claude" },
+        }}
+      >
+        Claude Max Subscription
+      </Link>
     </View>
   );
 }
